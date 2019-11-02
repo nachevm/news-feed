@@ -1,0 +1,5 @@
+type NewsItemPage {
+    content: [NewsItem!]!
+    totalPages: Int!
+    totalElements: Int!
+}

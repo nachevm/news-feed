@@ -1,0 +1,7 @@
+type NewsItem {
+    id: ID!
+    title: String!
+    description: String!
+    publishedDate: LocalDateTime!
+    imagePath: String
+}

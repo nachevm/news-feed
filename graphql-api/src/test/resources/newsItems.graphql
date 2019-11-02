@@ -1,0 +1,9 @@
+{
+    newsItems(input: {pageNumber: 2 size: 1}) {
+        content {
+            id
+            title
+        }
+        totalElements
+    }
+}
